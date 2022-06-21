@@ -19,6 +19,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecorrerUnaMatrizAplicacion
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecorrerUnaMatrizPrueba", "RotacionCiclica\RecorrerUnaMatrizPrueba\RecorrerUnaMatrizPrueba.csproj", "{5B3EFDEC-859A-468A-8D63-06CDE729DEE4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OcurrenciasImpares", "OcurrenciasImpares", "{656B51AC-039C-49E2-97E8-E58FF85D6EFD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrizDisparBiblioteca", "OcurrenciasImpares\MatrizDisparBiblioteca\MatrizDisparBiblioteca.csproj", "{8B101B40-EB94-4544-9FDF-EE83F296EC82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrizDisparAplicacion", "OcurrenciasImpares\MatrizDisparAplicacion\MatrizDisparAplicacion.csproj", "{E6869AF7-D557-4FF8-B69A-9702A46DAD59}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrizDisparPrueba", "OcurrenciasImpares\MatrizDisparPrueba\MatrizDisparPrueba.csproj", "{5EEDF74A-ED0A-48F6-ABBD-207D3BD19A97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +57,18 @@ Global
 		{5B3EFDEC-859A-468A-8D63-06CDE729DEE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B3EFDEC-859A-468A-8D63-06CDE729DEE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B3EFDEC-859A-468A-8D63-06CDE729DEE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B101B40-EB94-4544-9FDF-EE83F296EC82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B101B40-EB94-4544-9FDF-EE83F296EC82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B101B40-EB94-4544-9FDF-EE83F296EC82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B101B40-EB94-4544-9FDF-EE83F296EC82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6869AF7-D557-4FF8-B69A-9702A46DAD59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6869AF7-D557-4FF8-B69A-9702A46DAD59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6869AF7-D557-4FF8-B69A-9702A46DAD59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6869AF7-D557-4FF8-B69A-9702A46DAD59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EEDF74A-ED0A-48F6-ABBD-207D3BD19A97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EEDF74A-ED0A-48F6-ABBD-207D3BD19A97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EEDF74A-ED0A-48F6-ABBD-207D3BD19A97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EEDF74A-ED0A-48F6-ABBD-207D3BD19A97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +80,9 @@ Global
 		{369F7399-BADA-4338-8E45-6476F95FA720} = {7DBF2701-4445-484A-A080-2A3799024133}
 		{7600F402-235E-4619-9E6C-5160ECF68F18} = {7DBF2701-4445-484A-A080-2A3799024133}
 		{5B3EFDEC-859A-468A-8D63-06CDE729DEE4} = {7DBF2701-4445-484A-A080-2A3799024133}
+		{8B101B40-EB94-4544-9FDF-EE83F296EC82} = {656B51AC-039C-49E2-97E8-E58FF85D6EFD}
+		{E6869AF7-D557-4FF8-B69A-9702A46DAD59} = {656B51AC-039C-49E2-97E8-E58FF85D6EFD}
+		{5EEDF74A-ED0A-48F6-ABBD-207D3BD19A97} = {656B51AC-039C-49E2-97E8-E58FF85D6EFD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {16F324E4-EBBE-4CE3-8534-FED9D2136146}
