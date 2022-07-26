@@ -20,5 +20,20 @@ namespace CuentaSaltosPrueba
             //Assert = Afirmar o verificar que la prueba cumple la condicion
             Assert.AreEqual(obtenido,esperado);
         }
+        [TestMethod]
+        public void pruebaX1Y5D2Obten2()
+        {
+            //Arrange = Arreglar o adecuar la PruebaUnitaria
+            Algoritmo AlgCuentaSaltos = new Algoritmo();
+            int X_evaluado = 1;
+            int Y_evaluado = 5;
+            int D_fijo = 2;
+            int obtenido;
+            int esperado = 2;
+            //Act = Actuar o realizar la prueba
+            obtenido = AlgCuentaSaltos.CuentaSaltos(X_evaluado, Y_evaluado, D_fijo);
+            //Assert = Afirmar o verificar que la prueba cumple la condicion
+            Assert.AreEqual(obtenido, esperado);
+        }
     }
 }
