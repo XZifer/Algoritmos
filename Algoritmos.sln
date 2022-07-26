@@ -21,12 +21,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Leccion3ComplejidadTiempo",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CintaEquilibrio", "CintaEquilibrio", "{1299B533-7100-43C5-81E6-C7F08D8373C4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CintaEquilibrioBiblioteca", "E:\Luis\source\repos\XZifer\Algoritmos\Leccion3ComplejidadTiempo\CintaEquilibrio\CintaEquilibrioBiblioteca\CintaEquilibrioBiblioteca.csproj", "{F43195FC-6CF4-46BB-ACD9-243A3B2E9849}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CintaEquilibrioAplicacion", "E:\Luis\source\repos\XZifer\Algoritmos\Leccion3ComplejidadTiempo\CintaEquilibrio\CintaEquilibrioAplicacion\CintaEquilibrioAplicacion.csproj", "{480E1894-912F-4EEA-84A0-B13DFEA99F39}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CintaEquilibrioPrueba", "E:\Luis\source\repos\XZifer\Algoritmos\Leccion3ComplejidadTiempo\CintaEquilibrio\CintaEquilibrioPrueba\CintaEquilibrioPrueba.csproj", "{ABE33FFF-B894-4F8A-A214-82D820C5FE5C}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DistanciaBinariaBiblioteca", "Leccion1Iteradores\DistanciaBinaria\DistanciaBinariaBiblioteca\DistanciaBinariaBiblioteca.csproj", "{A68DD97B-8007-4170-9B25-F592CDAD8955}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DistanciaBinariaAplicacion", "Leccion1Iteradores\DistanciaBinaria\DistanciaBinariaAplicacion\DistanciaBinariaAplicacion.csproj", "{3DBA7934-74FE-4600-970D-23BE0CBDC756}"
@@ -67,24 +61,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RanaCruzandoAlgoritmo", "Le
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RanaCruzandoPrueba", "Leccion4ElementosDeConteo\RanaCruzando\RanaCruzandoPrueba\RanaCruzandoPrueba.csproj", "{CE3D4560-F407-4D03-804D-7EF464F4E012}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CintaEquilibrioBiblioteca", "Leccion3ComplejidadTiempo\CintaEquilibrio\CintaEquilibrioBiblioteca\CintaEquilibrioBiblioteca.csproj", "{893EE09E-683E-43D0-B428-9C61F9808495}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CintaEquilibrioAplicacion", "Leccion3ComplejidadTiempo\CintaEquilibrio\CintaEquilibrioAplicacion\CintaEquilibrioAplicacion.csproj", "{646E5A79-8F81-4E83-A337-E04120E63F88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CintaEquilibrioPrueba", "Leccion3ComplejidadTiempo\CintaEquilibrio\CintaEquilibrioPrueba\CintaEquilibrioPrueba.csproj", "{F3A9AC8A-1A5B-450E-8301-C8F99F6C0826}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F43195FC-6CF4-46BB-ACD9-243A3B2E9849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F43195FC-6CF4-46BB-ACD9-243A3B2E9849}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F43195FC-6CF4-46BB-ACD9-243A3B2E9849}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F43195FC-6CF4-46BB-ACD9-243A3B2E9849}.Release|Any CPU.Build.0 = Release|Any CPU
-		{480E1894-912F-4EEA-84A0-B13DFEA99F39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{480E1894-912F-4EEA-84A0-B13DFEA99F39}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{480E1894-912F-4EEA-84A0-B13DFEA99F39}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{480E1894-912F-4EEA-84A0-B13DFEA99F39}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ABE33FFF-B894-4F8A-A214-82D820C5FE5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ABE33FFF-B894-4F8A-A214-82D820C5FE5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ABE33FFF-B894-4F8A-A214-82D820C5FE5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ABE33FFF-B894-4F8A-A214-82D820C5FE5C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A68DD97B-8007-4170-9B25-F592CDAD8955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A68DD97B-8007-4170-9B25-F592CDAD8955}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A68DD97B-8007-4170-9B25-F592CDAD8955}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -157,6 +145,18 @@ Global
 		{CE3D4560-F407-4D03-804D-7EF464F4E012}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE3D4560-F407-4D03-804D-7EF464F4E012}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE3D4560-F407-4D03-804D-7EF464F4E012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{893EE09E-683E-43D0-B428-9C61F9808495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{893EE09E-683E-43D0-B428-9C61F9808495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{893EE09E-683E-43D0-B428-9C61F9808495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{893EE09E-683E-43D0-B428-9C61F9808495}.Release|Any CPU.Build.0 = Release|Any CPU
+		{646E5A79-8F81-4E83-A337-E04120E63F88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{646E5A79-8F81-4E83-A337-E04120E63F88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{646E5A79-8F81-4E83-A337-E04120E63F88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{646E5A79-8F81-4E83-A337-E04120E63F88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3A9AC8A-1A5B-450E-8301-C8F99F6C0826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3A9AC8A-1A5B-450E-8301-C8F99F6C0826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3A9AC8A-1A5B-450E-8301-C8F99F6C0826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3A9AC8A-1A5B-450E-8301-C8F99F6C0826}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -168,9 +168,6 @@ Global
 		{0113D5D1-596C-4533-8737-B889A9092F23} = {19A1D805-21F1-43C1-9034-0DF49DA43738}
 		{E6B938C4-A260-4602-9F54-EDB331355EB0} = {19A1D805-21F1-43C1-9034-0DF49DA43738}
 		{1299B533-7100-43C5-81E6-C7F08D8373C4} = {19A1D805-21F1-43C1-9034-0DF49DA43738}
-		{F43195FC-6CF4-46BB-ACD9-243A3B2E9849} = {1299B533-7100-43C5-81E6-C7F08D8373C4}
-		{480E1894-912F-4EEA-84A0-B13DFEA99F39} = {1299B533-7100-43C5-81E6-C7F08D8373C4}
-		{ABE33FFF-B894-4F8A-A214-82D820C5FE5C} = {1299B533-7100-43C5-81E6-C7F08D8373C4}
 		{A68DD97B-8007-4170-9B25-F592CDAD8955} = {ADF1E4D8-EBE6-4DC2-97A9-ECEFBB7745F2}
 		{3DBA7934-74FE-4600-970D-23BE0CBDC756} = {ADF1E4D8-EBE6-4DC2-97A9-ECEFBB7745F2}
 		{C0959027-9FF5-44E4-968C-A4B68682E0CE} = {ADF1E4D8-EBE6-4DC2-97A9-ECEFBB7745F2}
@@ -190,6 +187,9 @@ Global
 		{01E1A408-CCFC-4072-AAE4-BE6FD0160DD1} = {13AE152C-181B-41D7-A131-03CF2F111A14}
 		{142B66BF-B72F-4C90-87DE-22718BFE2EBE} = {13AE152C-181B-41D7-A131-03CF2F111A14}
 		{CE3D4560-F407-4D03-804D-7EF464F4E012} = {13AE152C-181B-41D7-A131-03CF2F111A14}
+		{893EE09E-683E-43D0-B428-9C61F9808495} = {1299B533-7100-43C5-81E6-C7F08D8373C4}
+		{646E5A79-8F81-4E83-A337-E04120E63F88} = {1299B533-7100-43C5-81E6-C7F08D8373C4}
+		{F3A9AC8A-1A5B-450E-8301-C8F99F6C0826} = {1299B533-7100-43C5-81E6-C7F08D8373C4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {16F324E4-EBBE-4CE3-8534-FED9D2136146}
