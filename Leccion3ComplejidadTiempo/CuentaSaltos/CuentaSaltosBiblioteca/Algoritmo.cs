@@ -7,12 +7,26 @@
             //Declarando variable numero de saltos
             //Mientras que la posicion de la rana no es mayor que la posicion de la meta
             int numeroSaltos = 0;
-            while (X < Y)
+            if (X >= Y)
             {
-                X = X + D;
-                numeroSaltos++;
+                numeroSaltos = 0;
+            }
+            else
+            {
+                numeroSaltos = (Y - X)/D;
+                if ((numeroSaltos*D)+X < Y)
+                {
+                    numeroSaltos++;
+                }
             }
             return numeroSaltos;
+            #region Opcion 1
+            //while (X < Y)
+            //{
+            //    X = X + D;
+            //    numeroSaltos++;
+            //}
+            #endregion
         }
     }
 }
