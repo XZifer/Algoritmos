@@ -45,5 +45,18 @@ namespace CintaEquilibrioPrueba
             //Assert = Afirmar o verificar que la prueba cumple la condicion
             Assert.AreEqual(obtenido, esperado);
         }
+        [TestMethod]
+        public void prueba311Obten1()
+        {
+            //Arrange = Arreglar o adecuar la PruebaUnitaria
+            Algoritmo AlgMinimo = new Algoritmo();
+            int[] A_evaluado = { 3,1,1 };
+            int obtenido;
+            int esperado = 1;
+            //Act = Actuar o realizar la prueba
+            obtenido = AlgMinimo.DiferenciaMinima(A_evaluado);
+            //Assert = Afirmar o verificar que la prueba cumple la condicion
+            Assert.AreEqual(obtenido, esperado);
+        }
     }
 }
