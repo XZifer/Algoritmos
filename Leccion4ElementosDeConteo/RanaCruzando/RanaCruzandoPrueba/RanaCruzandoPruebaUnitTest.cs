@@ -6,7 +6,7 @@ namespace RanaCruzandoPrueba
     public class RanaCruzandoPruebaUnitTest
     {
         [TestMethod]
-        public void pruebaX5A13142354obten()
+        public void pruebaX5A13142354obten6()
         {
             //Arrange = Arreglar o adecuar la PruebaUnitaria
             Algoritmo algRanaCruzando = new Algoritmo();
@@ -20,12 +20,26 @@ namespace RanaCruzandoPrueba
             Assert.AreEqual(obtenido, esperado);
         }
         [TestMethod]
-        public void pruebaX6A13142354obten()
+        public void pruebaX6A13142354obtenm1()
         {
             //Arrange = Arreglar o adecuar la PruebaUnitaria
             Algoritmo algRanaCruzando = new Algoritmo();
             int X_evaluado = 6;
             int[] A = { 1, 3, 1, 4, 2, 3, 5, 4 };
+            int obtenido;
+            int esperado = -1;
+            //Act = Actuar o realizar la prueba
+            obtenido = algRanaCruzando.Solucion(X_evaluado, A);
+            //Assert = Afirmar o verificar que la prueba cumple la condicion
+            Assert.AreEqual(obtenido, esperado);
+        }
+        [TestMethod]
+        public void pruebaX2A22222obtenm1()
+        {
+            //Arrange = Arreglar o adecuar la PruebaUnitaria
+            Algoritmo algRanaCruzando = new Algoritmo();
+            int X_evaluado = 2;
+            int[] A = {2,2,2,2,2};
             int obtenido;
             int esperado = -1;
             //Act = Actuar o realizar la prueba
