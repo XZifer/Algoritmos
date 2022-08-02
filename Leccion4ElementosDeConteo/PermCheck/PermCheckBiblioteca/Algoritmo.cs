@@ -4,21 +4,29 @@
     {
         public int PermutaCheck(int[] A)
         {
-            int permuta = 0;
+            // 1 si es permutable
+            // 0 no es permutable
+            //sin repetir elementos
+            int permuta =0;
             Array.Sort(A);
             int siguiente;
-            if (A.Length == 0 || A[0] != 1)
+            if (A[0] != 1 | A.Length == 0)
             {
-                 permuta = 0;
+                return permuta;
             }
-            for (int actual = 0; actual < A.Length; actual++)
+            else if (A.Length == 1 && A[0] == 1)
+            {
+                return 1;
+            }
+            for (int actual = 0; actual < A.Length -1; actual++)
             {
                 siguiente = actual + 1;
-                if (siguiente == A.Length && permuta == 0)
+                
+                if ((A[siguiente] - A[actual]) == 1 )
                 {
                     permuta = 1;
                 }
-                else if ((A[siguiente] - A[actual]) > 1)
+                else
                 {
                     permuta = 0;
                     break;
