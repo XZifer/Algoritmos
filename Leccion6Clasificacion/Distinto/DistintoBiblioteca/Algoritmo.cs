@@ -2,9 +2,11 @@
 {
     public class Algoritmo
     {
-        public int Solucion(int[] a_evaluado)
+        public int Solucion(int[] A)
         {
-            throw new NotImplementedException();
+            int distinto;
+            distinto = A.Distinct().Count();
+            return distinto;
         }
     }
 }
