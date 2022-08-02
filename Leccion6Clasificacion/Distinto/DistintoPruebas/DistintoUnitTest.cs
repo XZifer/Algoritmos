@@ -1,3 +1,5 @@
+using DistintoBiblioteca;
+
 namespace DistintoPruebas
 {
     [TestClass]
