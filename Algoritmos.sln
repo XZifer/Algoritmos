@@ -101,6 +101,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxProDeTresBiblioteca", "L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxProDeTresAplicacion", "Leccion6Clasificacion\MaxProDeTres\MaxProDeTresAplicacion\MaxProDeTresAplicacion.csproj", "{9293861D-E8E3-4CEB-A4AB-6F4D96B97CE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxProDeTresPruebas", "Leccion6Clasificacion\MaxProDeTres\MaxProDeTresPruebas\MaxProDeTresPruebas.csproj", "{EBE01143-99F2-47B6-981C-7A619DCA817C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -235,6 +237,10 @@ Global
 		{9293861D-E8E3-4CEB-A4AB-6F4D96B97CE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9293861D-E8E3-4CEB-A4AB-6F4D96B97CE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9293861D-E8E3-4CEB-A4AB-6F4D96B97CE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBE01143-99F2-47B6-981C-7A619DCA817C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBE01143-99F2-47B6-981C-7A619DCA817C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBE01143-99F2-47B6-981C-7A619DCA817C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBE01143-99F2-47B6-981C-7A619DCA817C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -283,6 +289,7 @@ Global
 		{B242B0E4-9922-4041-96DA-E413371155F3} = {0048CD38-02C5-4D0E-837A-FB1000A83203}
 		{82A58D49-3C1D-4AB0-B10E-EDEECB62BA44} = {B242B0E4-9922-4041-96DA-E413371155F3}
 		{9293861D-E8E3-4CEB-A4AB-6F4D96B97CE2} = {B242B0E4-9922-4041-96DA-E413371155F3}
+		{EBE01143-99F2-47B6-981C-7A619DCA817C} = {B242B0E4-9922-4041-96DA-E413371155F3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {16F324E4-EBBE-4CE3-8534-FED9D2136146}
