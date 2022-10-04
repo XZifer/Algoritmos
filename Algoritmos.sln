@@ -97,11 +97,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DistintoPruebas", "Leccion6
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MaxProDeTres", "MaxProDeTres", "{B242B0E4-9922-4041-96DA-E413371155F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxProDeTresBiblioteca", "Leccion6Clasificacion\MaxProDeTres\MaxProDeTresBiblioteca\MaxProDeTresBiblioteca.csproj", "{82A58D49-3C1D-4AB0-B10E-EDEECB62BA44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxProDeTresBiblioteca", "Leccion6Clasificacion\MaxProDeTres\MaxProDeTresBiblioteca\MaxProDeTresBiblioteca.csproj", "{82A58D49-3C1D-4AB0-B10E-EDEECB62BA44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxProDeTresAplicacion", "Leccion6Clasificacion\MaxProDeTres\MaxProDeTresAplicacion\MaxProDeTresAplicacion.csproj", "{9293861D-E8E3-4CEB-A4AB-6F4D96B97CE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxProDeTresAplicacion", "Leccion6Clasificacion\MaxProDeTres\MaxProDeTresAplicacion\MaxProDeTresAplicacion.csproj", "{9293861D-E8E3-4CEB-A4AB-6F4D96B97CE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxProDeTresPruebas", "Leccion6Clasificacion\MaxProDeTres\MaxProDeTresPruebas\MaxProDeTresPruebas.csproj", "{EBE01143-99F2-47B6-981C-7A619DCA817C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxProDeTresPruebas", "Leccion6Clasificacion\MaxProDeTres\MaxProDeTresPruebas\MaxProDeTresPruebas.csproj", "{EBE01143-99F2-47B6-981C-7A619DCA817C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Triangle", "Triangle", "{C4865EFE-FD55-4139-B812-077426636DEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TriangleLibrary", "TriangleLibrary", "{2CADD653-A4F8-4D68-9552-B8485BA6AF90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TriangleTest", "TriangleTest", "{10A2562E-E419-4F1C-AC65-3278467F21D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TriangleAlgoritm", "TriangleAlgoritm", "{E064B910-8C30-43A6-BA42-58E289A3A504}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -290,6 +298,10 @@ Global
 		{82A58D49-3C1D-4AB0-B10E-EDEECB62BA44} = {B242B0E4-9922-4041-96DA-E413371155F3}
 		{9293861D-E8E3-4CEB-A4AB-6F4D96B97CE2} = {B242B0E4-9922-4041-96DA-E413371155F3}
 		{EBE01143-99F2-47B6-981C-7A619DCA817C} = {B242B0E4-9922-4041-96DA-E413371155F3}
+		{C4865EFE-FD55-4139-B812-077426636DEB} = {0048CD38-02C5-4D0E-837A-FB1000A83203}
+		{2CADD653-A4F8-4D68-9552-B8485BA6AF90} = {C4865EFE-FD55-4139-B812-077426636DEB}
+		{10A2562E-E419-4F1C-AC65-3278467F21D7} = {C4865EFE-FD55-4139-B812-077426636DEB}
+		{E064B910-8C30-43A6-BA42-58E289A3A504} = {C4865EFE-FD55-4139-B812-077426636DEB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {16F324E4-EBBE-4CE3-8534-FED9D2136146}
