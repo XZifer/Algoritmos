@@ -26,5 +26,15 @@ namespace TriangleTest
             obtenido = al.Triangulo(A_evaluar);
             Assert.AreEqual(obtenido, esperado);
         }
+        [TestMethod]
+        public void Prueba533Regresa1()
+        {
+            Algorit al = new();
+            int[] A_evaluar = { 5,3,3 };
+            int obtenido;
+            int esperado = 1;
+            obtenido = al.Triangulo(A_evaluar);
+            Assert.AreEqual(obtenido, esperado);
+        }
     }
 }
