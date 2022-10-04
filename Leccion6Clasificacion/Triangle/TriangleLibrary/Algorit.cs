@@ -7,9 +7,9 @@
             int resultado = 0;
             for (int p = 0; p < A.Length - 2; p++)
             {
-                for (int q = 1; q < A.Length - 1; q++)
+                for (int q = p + 1; q < A.Length - 1; q++)
                 {
-                    for (int r = 2; r < A.Length; r++)
+                    for (int r = q +1; r < A.Length; r++)
                     {
                         if (A[p] + A[q] > A[r] && A[q] + A[r] > A[p] && A[r] + A[p] > A[q])
                         {
