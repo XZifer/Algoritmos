@@ -111,6 +111,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TriangleTest", "TriangleTes
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TriangleAlgoritm", "TriangleAlgoritm", "{E064B910-8C30-43A6-BA42-58E289A3A504}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriangleLibrary", "Leccion6Clasificacion\Triangle\TriangleLibrary\TriangleLibrary.csproj", "{7872942E-390B-4C28-856C-818EDF2B972F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriangleTest", "Leccion6Clasificacion\Triangle\TriangleTest\TriangleTest.csproj", "{EBB6DD6A-DDE8-4294-A314-8CE91FC18696}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriangleAlgoritm", "Leccion6Clasificacion\Triangle\TriangleAlgoritm\TriangleAlgoritm.csproj", "{B9A73104-5E2C-4BD6-8DF8-AF672E4EE1F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -249,6 +255,18 @@ Global
 		{EBE01143-99F2-47B6-981C-7A619DCA817C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBE01143-99F2-47B6-981C-7A619DCA817C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBE01143-99F2-47B6-981C-7A619DCA817C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7872942E-390B-4C28-856C-818EDF2B972F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7872942E-390B-4C28-856C-818EDF2B972F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7872942E-390B-4C28-856C-818EDF2B972F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7872942E-390B-4C28-856C-818EDF2B972F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBB6DD6A-DDE8-4294-A314-8CE91FC18696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBB6DD6A-DDE8-4294-A314-8CE91FC18696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBB6DD6A-DDE8-4294-A314-8CE91FC18696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBB6DD6A-DDE8-4294-A314-8CE91FC18696}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9A73104-5E2C-4BD6-8DF8-AF672E4EE1F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9A73104-5E2C-4BD6-8DF8-AF672E4EE1F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9A73104-5E2C-4BD6-8DF8-AF672E4EE1F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9A73104-5E2C-4BD6-8DF8-AF672E4EE1F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -302,6 +320,9 @@ Global
 		{2CADD653-A4F8-4D68-9552-B8485BA6AF90} = {C4865EFE-FD55-4139-B812-077426636DEB}
 		{10A2562E-E419-4F1C-AC65-3278467F21D7} = {C4865EFE-FD55-4139-B812-077426636DEB}
 		{E064B910-8C30-43A6-BA42-58E289A3A504} = {C4865EFE-FD55-4139-B812-077426636DEB}
+		{7872942E-390B-4C28-856C-818EDF2B972F} = {2CADD653-A4F8-4D68-9552-B8485BA6AF90}
+		{EBB6DD6A-DDE8-4294-A314-8CE91FC18696} = {10A2562E-E419-4F1C-AC65-3278467F21D7}
+		{B9A73104-5E2C-4BD6-8DF8-AF672E4EE1F4} = {E064B910-8C30-43A6-BA42-58E289A3A504}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {16F324E4-EBBE-4CE3-8534-FED9D2136146}
