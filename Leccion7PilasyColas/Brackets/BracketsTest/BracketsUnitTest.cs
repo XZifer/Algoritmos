@@ -19,7 +19,7 @@ namespace BracketsTest
         public void Prueba2Regresa0()
         {
             Algoritm algoritm = new();
-            string S_evaluado = " ([)()] ";
+            string S_evaluado = "([)()]";
             int obtenido;
             int esperado = 0;
             obtenido = algoritm.Anidar(S_evaluado);
