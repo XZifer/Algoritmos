@@ -4,21 +4,32 @@
     {
         public int Anidar(string S)
         {
-            if (S == "" || S.Length%2 != 0)
+            if (S.Length == 0){return 1;}
+            List<char> corchetesLista = new List<char>();
+            foreach (char c in S)
             {
-                return 0;
+                PilaSuperior(c, corchetesLista); 
             }
-            for (int i = 0,j = S.Length -1; i < j; i++, j--)
-            {
-                if ((S[i] == '(' && S[j] != ')') ||
-                    (S[i] == '{' && S[j] != '}') ||
-                    (S[i] == '[' && S[j] != ']'))
-                {
-                    return 0;
-                }
-                return 1;
-            }
+            if (corchetesLista.Count == 0){ return 1; }
             return 0;
+        }
+
+        private void PilaSuperior(char c, List<char> corchetesLista)
+        {
+            if (corchetesLista.Count == 0)
+            {
+                corchetesLista.Add(c);
+                return;
+            }
+            bool agregarcorchetes = true;
+            if (corchetesLista[corchetesLista.Count - 1] == '(' && c == ')' ||
+                corchetesLista[corchetesLista.Count - 1] == '{' && c == '}' ||
+                corchetesLista[corchetesLista.Count - 1] == '[' && c == ']' )
+            {
+                corchetesLista.RemoveAt(corchetesLista.Count - 1);
+                agregarcorchetes = false;
+            }
+            if (agregarcorchetes){ corchetesLista.Add(c); }
         }
     }
 }
