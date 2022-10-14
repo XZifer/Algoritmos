@@ -1,27 +1,41 @@
-﻿namespace FishLibrary
+﻿using System;
+
+namespace FishLibrary
 {
     public class Algoritm
     {
         public int LiveFish(int[] A, int[] B)
         {
-            int lives = 0;
+            Stack<int> upstreamSchool = new Stack<int>();
+            Stack<int> downstreamSchool = new Stack<int>();
+
             for (int i = 0; i < A.Length; i++)
             {
-                if (i == 0 && B[i] == 0 ||
-                    i == A.Length - 1 && B[i] == 1)
+                if (B[i] == 0)
                 {
-                    lives++;
-                    A[i] = 0;
+                    upstreamSchool.Push(i);
                 }
-                else 
+                else
                 {
-                    for (int j = i + 1; j < A.Length; j++)
-                    {
+                    downstreamSchool.Push(i);
+                }
+                while (upstreamSchool.Count > 0 && downstreamSchool.Count > 0)
+                {
+                    int downstreamFish = downstreamSchool.Peek();
+                    int upstreamFish = upstreamSchool.Peek();
 
+                    if (downstreamFish < upstreamFish)
+                    {
+                        if (A[downstreamFish] > A[upstreamFish]) { upstreamSchool.Pop(); }
+                        else { downstreamSchool.Pop(); }
+                    }
+                    else
+                    {
+                        break;
                     }
                 }
             }
-            return lives;
+            return downstreamSchool.Count + upstreamSchool.Count;
         }
     }
 }
