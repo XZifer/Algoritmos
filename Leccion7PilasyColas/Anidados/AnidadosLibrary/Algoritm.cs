@@ -4,29 +4,38 @@
     {
         public int Anida(string S)
         {
-            Stack<char> open = new Stack<char>();
-            Stack<char> close = new Stack<char>();
+            Stack<int> open = new Stack<int>();
+            Stack<int> close = new Stack<int>();
             if (S == "")
             {
                 return 1;
             }
-            foreach (char c in S)
+            else if ( S[0] == ')' || S[S.Length-1] == '(')
             {
-                if (c == '(')
+                return 0;
+            }
+            for (int i= 0; i < S.Length; i++)
+            {
+                if (S[i] == '(')
                 {
-                    open.Push(c);
+                    open.Push(i);
                 }
-                else if (c == ')')
+                else if (S[i] == ')')
                 {
-                    close.Push(c);
+                    close.Push(i);
                 }
-                while (open.Count > 0 && close.Count > 0)
-                {
-                    open.Pop();
-                    close.Pop();
+                if (open.Count > 0 && close.Count > 0)
+                {   
+                    int openposition = open.Peek();
+                    int closeposition = close.Peek();
+                    if (openposition < closeposition)
+                    {
+                        open.Pop();
+                        close.Pop();
+                    }
                 }
             }
-            if (open.Count + close.Count > 0)
+            if (open.Count + close.Count == 0)
             {
                 return 1;
             }
