@@ -1,11 +1,19 @@
+using StoneWallLibrary;
+
 namespace StoneWallTest
 {
     [TestClass]
     public class StoneWallUnitTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void Prueba885798748Regresa7()
         {
+            Algoritm alg = new();
+            int[] H_evaluado = { 8,8,5,7,9,8,7,4,8 };
+            int obtenido;
+            int esoerado = 7;
+            obtenido = alg.MinBlocks(H_evaluado);
+            Assert.AreEqual(obtenido, esoerado);
         }
     }
 }
